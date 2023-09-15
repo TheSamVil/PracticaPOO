@@ -1,0 +1,15 @@
+# ninja log v5
+4	88	7164367374317644	CMakeFiles/listicas2.dir/Nodo.cpp.obj	42f44be2e2bae527
+8	605	7164367379478266	CMakeFiles/listicas2.dir/ListaDoblementeEnlazada.cpp.obj	a97a6d4ebf0e323
+13	604	7164367379459863	CMakeFiles/listicas2.dir/main.cpp.obj	c0bf1f278d809878
+605	699	7164367380373760	listicas2.exe	6380e323c8873e09
+1	197	7164949419262121	build.ninja	cd58b42f3ea0f0ac
+15	79	7164365891859309	CMakeFiles/listicas2.dir/Evento.cpp.obj	ecc670318630aa3
+13	122	7164951400879009	CMakeFiles/listicas2.dir/Nodo.cpp.obj	42f44be2e2bae527
+19	575	7164951405381492	CMakeFiles/listicas2.dir/ListaDoblementeEnlazada.cpp.obj	a97a6d4ebf0e323
+6	576	7164951405392292	CMakeFiles/listicas2.dir/main.cpp.obj	c0bf1f278d809878
+576	876	7164951408380039	listicas2.exe	6380e323c8873e09
+9	83	7164951880921890	CMakeFiles/listicas2.dir/Nodo.cpp.obj	42f44be2e2bae527
+14	475	7164951884853661	CMakeFiles/listicas2.dir/ListaDoblementeEnlazada.cpp.obj	a97a6d4ebf0e323
+5	488	7164951884992438	CMakeFiles/listicas2.dir/main.cpp.obj	c0bf1f278d809878
+488	578	7164951885855332	listicas2.exe	6380e323c8873e09
