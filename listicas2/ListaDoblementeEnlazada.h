@@ -7,12 +7,15 @@
 
 
 #include "Nodo.h"
+#include <string>
+
+using namespace std;
 
 class ListaDoblementeEnlazada {
 public: Nodo *head;
     ListaDoblementeEnlazada();
     // Insert new node at beginning position
-    void insert(int value);
+    void insert(string nombre_evento, string nombre_cientifico, int numero_evento);
 
     // Display node element of doubly linked list
     void display();

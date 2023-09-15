@@ -3,4 +3,6 @@ project(listicas2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(listicas2 main.cpp Nodo.cpp Nodo.h ListaDoblementeEnlazada.cpp ListaDoblementeEnlazada.h)
+add_executable(listicas2 main.cpp Nodo.cpp Nodo.h ListaDoblementeEnlazada.cpp ListaDoblementeEnlazada.h
+        Viajero.h
+        Viajero.cpp)

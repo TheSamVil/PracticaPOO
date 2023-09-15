@@ -4,13 +4,18 @@
 
 #ifndef LISTICAS2_NODO_H
 #define LISTICAS2_NODO_H
+#include <string>
 
+using namespace std;
 
 class Nodo {
-public: int data;
+public: 
+    int num_evento;
+    string nombre_evento;
+    string nombre_cientifico;
     Nodo *next;
     Nodo *prev;
-    Nodo(int data);
+    Nodo(string nombre_evento, string nombre_cientifico, int num_evento);
 
 };
 
