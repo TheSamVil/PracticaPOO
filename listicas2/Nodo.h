@@ -1,31 +1,37 @@
-//
-// Created by Alexander on 1/09/2022.
-//
 
 #ifndef LISTICAS2_NODO_H
 #define LISTICAS2_NODO_H
 
 
 using namespace std;
-
 class Nodo {
-public: 
+public:
+    
+    // Atributos
     int dato;
     char cientifico;
     char tipo_evento;
     Nodo *next;
     Nodo *prev;
+    
+    // Metodos
     Nodo(int dato, char cientifico, char tipo_evento, Nodo *next, Nodo *prev);
-    int getDato() const;
+   
+    // Setters y Getters
     void setDato(int dato);
-    char getCientifico() const;
+    int getDato() const;
+    
     void setCientifico(char cientifico);
-    char getEvento() const;
+    char getCientifico() const;
+    
     void setEvento(char tipo_evento);
-    Nodo *getNext() const;
+    char getEvento() const;
+    
     void setNext(Nodo *next);
-    Nodo *getPrev() const;
+    Nodo *getNext() const;
+    
     void setPrev(Nodo *prev);
+    Nodo *getPrev() const;
 };
 
 

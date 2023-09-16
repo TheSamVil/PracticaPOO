@@ -1,6 +1,3 @@
-//
-// Created by Alexander on 1/09/2022.
-//
 
 #ifndef LISTICAS2_LISTADOBLEMENTEENLAZADA_H
 #define LISTICAS2_LISTADOBLEMENTEENLAZADA_H
@@ -12,13 +9,19 @@ using namespace std;
 
 class ListaDoblementeEnlazada {
 public: Nodo *head;
+    // Constructor
     ListaDoblementeEnlazada();
-    // Insert new node at beginning position
+    
+    // Metodos
+    void CrearDato(int dato);
+    
+    void CrearCientifico(char cientifico);
+    
+    void CrearEvento(char tipo_evento);
+    
     void insert(int dato, char cientifico, char tipo_evento, Nodo *next, Nodo *prev);
-
-    // Display node element of doubly linked list
+    
     void display();
-
 };
 
 
