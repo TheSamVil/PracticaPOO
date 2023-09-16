@@ -5,9 +5,7 @@
 
 int main() {
     ListaDoblementeEnlazada *puntero = new ListaDoblementeEnlazada();
-    // Insert following linked list nodes
-    puntero->insert("a", "einstein", 22);
-    //  NULL <- 10 <--> 20 <--> 30 <--> 40 <--> 50 <--> 60 <--> 70->NULL
+    puntero->insert(2, 'E', 'A', nullptr, nullptr);
     puntero->display();
 
     string nombre_evento = "NoNormal";
@@ -40,7 +38,25 @@ int main() {
 
 }
 
+/*
+notas:
+// CADA QUE HAY UN EVENTO SE IMPRIME ESTO:
+ cout<<"Se ha producido un evento de Tipo "<<tipo_evento<<": "<<dato<<endl; // Evento A
+ cout<<"|"<<dato<<"|"<<cientifico<<"|"<<tipo_evento<<"|->"<<endl;
+ cout<<"Se ha producido un evento de Tipo "<<(EVENTOB)<<": "<<(DATO)<<endl; // Evento B
+ cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOA)<<"|->";
+ cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOB)<<"|->"<<endl;
+ cout<<"Se ha encontrado un evento TA "<<(DATO)<<"en el nodo: " (NUMERO_NODO)<<endl;": "<<(DATO)<<endl;
+ cout<<"Se ha producido un evento de Tipo "<<(EVENTOC)<<": "<<(DATO)<<endl; // Evento C
+ cout<<"Se ha viajado en el tiempo y no se han compartido datos"<<endl;
+ cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOA)<<"|->";
+ cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOB)<<"|->";
+ cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOC)<<"|->"<<endl;
 
+ AL FINAL DE TODO SE IMPRIME ESTO:
+ cout<<"Total de eventos: "<<;
+
+ */
 
 
 

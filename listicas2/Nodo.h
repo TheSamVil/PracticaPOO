@@ -4,19 +4,28 @@
 
 #ifndef LISTICAS2_NODO_H
 #define LISTICAS2_NODO_H
-#include <string>
+
 
 using namespace std;
 
 class Nodo {
 public: 
-    int num_evento;
-    string nombre_evento;
-    string nombre_cientifico;
+    int dato;
+    char cientifico;
+    char tipo_evento;
     Nodo *next;
     Nodo *prev;
-    Nodo(string nombre_evento, string nombre_cientifico, int num_evento);
-
+    Nodo(int dato, char cientifico, char tipo_evento, Nodo *next, Nodo *prev);
+    int getDato() const;
+    void setDato(int dato);
+    char getCientifico() const;
+    void setCientifico(char cientifico);
+    char getEvento() const;
+    void setEvento(char tipo_evento);
+    Nodo *getNext() const;
+    void setNext(Nodo *next);
+    Nodo *getPrev() const;
+    void setPrev(Nodo *prev);
 };
 
 

@@ -3,7 +3,6 @@
 //
 #include <iostream>
 #include "ListaDoblementeEnlazada.h"
-#include <string>
 using namespace std;
 
 ListaDoblementeEnlazada::ListaDoblementeEnlazada(){
@@ -11,9 +10,12 @@ ListaDoblementeEnlazada::ListaDoblementeEnlazada(){
 }
 
 // Insertar un nuevo nodo al inicio
-void ListaDoblementeEnlazada::insert(string nombre_evento, string nombre_cientifico, int numero_evento){
+void ListaDoblementeEnlazada::insert(int dato, char cientifico, char tipo_evento, Nodo *next, Nodo *prev){
+    // Algoritmo random para dato
+    // Algoritmo para cientifico
+    // Algoritmo para tipo_evento
     // Crear un nuevo nodo
-    Nodo *evento = new Nodo(nombre_evento, nombre_cientifico, numero_evento);
+    Nodo *evento = new Nodo(dato, cientifico, tipo_evento, next, prev);
     evento->next = this->head;
     // Cuando la lista no está vacía
     if (this->head != nullptr)
@@ -40,9 +42,9 @@ void ListaDoblementeEnlazada:: display()
         while (temp != nullptr)
         {
             // Mostrar el valor del nodo
-            cout << "  " << temp->nombre_evento;
-            cout << "  " << temp->nombre_cientifico;
-            cout << "  " << temp->num_evento;
+            cout << "  " << temp->dato;
+            cout << "  " << temp->cientifico;
+            cout << "  " << temp->tipo_evento;
             // Visita el siguiente nodo
             temp = temp->next;
         }

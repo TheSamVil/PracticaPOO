@@ -67,12 +67,6 @@ build CMakeFiles/listicas2.dir/ListaDoblementeEnlazada.cpp.obj: CXX_COMPILER__li
   OBJECT_DIR = CMakeFiles\listicas2.dir
   OBJECT_FILE_DIR = CMakeFiles\listicas2.dir
 
-build CMakeFiles/listicas2.dir/Viajero.cpp.obj: CXX_COMPILER__listicas2_unscanned_Debug C$:/Users/USUARIO/OneDrive/Documentos/Universidad/Semestre$ 2/Lenguajes$ de$ programación/PracticaPOO2.0/listicas2/Viajero.cpp || cmake_object_order_depends_target_listicas2
-  DEP_FILE = CMakeFiles\listicas2.dir\Viajero.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\listicas2.dir
-  OBJECT_FILE_DIR = CMakeFiles\listicas2.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target listicas2
@@ -81,7 +75,7 @@ build CMakeFiles/listicas2.dir/Viajero.cpp.obj: CXX_COMPILER__listicas2_unscanne
 #############################################
 # Link the executable listicas2.exe
 
-build listicas2.exe: CXX_EXECUTABLE_LINKER__listicas2_Debug CMakeFiles/listicas2.dir/main.cpp.obj CMakeFiles/listicas2.dir/Nodo.cpp.obj CMakeFiles/listicas2.dir/ListaDoblementeEnlazada.cpp.obj CMakeFiles/listicas2.dir/Viajero.cpp.obj
+build listicas2.exe: CXX_EXECUTABLE_LINKER__listicas2_Debug CMakeFiles/listicas2.dir/main.cpp.obj CMakeFiles/listicas2.dir/Nodo.cpp.obj CMakeFiles/listicas2.dir/ListaDoblementeEnlazada.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\listicas2.dir
