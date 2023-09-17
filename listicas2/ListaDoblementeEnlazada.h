@@ -8,18 +8,17 @@
 using namespace std;
 
 class ListaDoblementeEnlazada {
-public: Nodo *head;
+public: Nodo *head = nullptr;
     // Constructor
     ListaDoblementeEnlazada();
     
     // Metodos
-    void CrearDato(int dato);
     
-    void CrearCientifico(char cientifico);
+    // void CrearCientifico(char cientifico);
     
-    void CrearEvento(char tipo_evento);
+    void Direcciones(Nodo *evento);
     
-    void insert(int dato, char cientifico, char tipo_evento, Nodo *next, Nodo *prev);
+    void insert(int numNodos);
     
     void display();
 };

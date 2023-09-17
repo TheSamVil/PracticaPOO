@@ -3,14 +3,10 @@
 
 int main() {
     ListaDoblementeEnlazada *puntero = new ListaDoblementeEnlazada();
-    for (int i = 1; i < 23; i++) {
-            // Crear un nuevo nodo
-            Nodo *evento = new Nodo(dato, cientifico, tipo_evento, next, prev);
-    puntero->insert(0, ' ', ' ', nullptr, nullptr);
+    int numNodes = 22;
+    puntero->insert(numNodes);
     puntero->display();
-}
     return 0;
-
 }
 
 /*
@@ -23,7 +19,7 @@ notas:
 
 // CADA QUE HAY UN EVENTO SE IMPRIME ESTO:
  cout<<"Se ha producido un evento de Tipo "<<tipo_evento<<": "<<dato<<endl; // Evento A
- cout<<"|"<<dato<<"|"<<cientifico<<"|"<<tipo_evento<<"|->"<<endl;
+                   cout<<"|"<<dato<<"|"<<cientifico<<"|"<<tipo_evento<<"|->"<<endl;
  cout<<"Se ha producido un evento de Tipo "<<(EVENTOB)<<": "<<(DATO)<<endl; // Evento B
  cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOA)<<"|->";
  cout<<"|"<<(DATO)<<"|"<<(CIENTIFICO)<<"|"<<(EVENTOB)<<"|->"<<endl;
