@@ -11,9 +11,9 @@ class ListaDoblementeEnlazada {
 public: Nodo *head = nullptr;
     // Constructor
     ListaDoblementeEnlazada();
-    
+
     // Metodos
-    void direcciones(Nodo *evento);
+    void viaje(int dato, char tipo_evento, char cientifico, int i);
     
     void insert(int numNodos);
     
