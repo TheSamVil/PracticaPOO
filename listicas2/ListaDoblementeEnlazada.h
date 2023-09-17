@@ -13,10 +13,7 @@ public: Nodo *head = nullptr;
     ListaDoblementeEnlazada();
     
     // Metodos
-    
-    // void CrearCientifico(char cientifico);
-    
-    void Direcciones(Nodo *evento);
+    void direcciones(Nodo *evento);
     
     void insert(int numNodos);
     

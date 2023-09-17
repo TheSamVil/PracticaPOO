@@ -12,10 +12,11 @@ int main() {
 /*
 notas:
       FALTA:
-     1. hacer los setters y getters para que la variable dato pueda entrar en evento
-     2.ponerle a chat gpt el codigo nuevamente
-     3. corregir todo lo de dato - cientifico - tipo_evento para que funcione correctamente y que imprima bien los 22 nodos
-     4. apartir de ahi que ya esta logica bien ponerle lo del evento c y que todos los cout esten bien
+     1. que el evento si sea a, b, c
+     2. comprobar que cuando el evento sea c si haga lo de coprimo con a
+     3. implementar la logica de si si comparte datos o no
+     4. poner todos los couts
+     5. terminar, organizar el codigo y poner los comentarios :D
 
 // CADA QUE HAY UN EVENTO SE IMPRIME ESTO:
  cout<<"Se ha producido un evento de Tipo "<<tipo_evento<<": "<<dato<<endl; // Evento A
