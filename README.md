@@ -1,12 +1,12 @@
 # PracticaPOO
 Lenguajes de programción
 
-Integrantes: \n
+Integrantes:
 Samuel Villa Valencia
 Juan José Botero García
 
-Version del compilador:\n
+Version del compilador:
 
 
-IDE utilizada: \n
+IDE utilizada:
 Clion 2023.2.2
