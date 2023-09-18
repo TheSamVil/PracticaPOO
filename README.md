@@ -2,8 +2,7 @@
 Lenguajes de programción
 
 Integrantes:
-Samuel Villa Valencia
-Juan José Botero García
+Samuel Villa Valencia y Juan José Botero García
 
 Version del compilador:
 3.26.4
